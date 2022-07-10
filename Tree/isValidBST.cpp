@@ -1,5 +1,6 @@
 //https://www.codingninjas.com/codestudio/problems/validate-bst_799483?leftPanelTab=0
 //https://leetcode.com/problems/validate-binary-search-tree/
+//https://practice.geeksforgeeks.org/problems/check-for-bst/1#
 
 //approach1
 void inorder(BinaryTreeNode<int> *root , vector<int>&temp){
