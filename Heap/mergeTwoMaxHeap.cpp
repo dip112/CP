@@ -1,4 +1,5 @@
 //https://practice.geeksforgeeks.org/problems/merge-two-binary-max-heap0144/1
+//https://www.codingninjas.com/codestudio/problems/merge-two-binary-max-heaps_1170049?leftPanelTab=0
 class Solution{
     void heapifyAlgorithm(vector<int>&arr , int n , int i){
         int parent=i;
