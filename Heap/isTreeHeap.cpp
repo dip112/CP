@@ -1,4 +1,5 @@
 //https://practice.geeksforgeeks.org/problems/is-binary-tree-heap/1
+//https://www.codingninjas.com/codestudio/problems/is-binary-heap-tree_893136?leftPanelTab=0
 class Solution {
     int cntNode(struct Node* root){
         if(root==NULL){
