@@ -1,3 +1,5 @@
+//https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+//https://leetcode.com/problems/network-delay-time/
 //https://www.codingninjas.com/codestudio/problems/dijkstra-s-shortest-path_920469?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar
 #include<bits/stdc++.h>
 vector<int> dijkstra(vector<vector<int>> &vec, int vertices, int edges, int source) {
