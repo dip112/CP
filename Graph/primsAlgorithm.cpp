@@ -67,7 +67,7 @@ vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pa
     vector<pair<pair<int, int>, int>>ans;
     
     //create minimum spanning tree
-    for(int i=2;i<=n;i++){
+    for(int i=2;i<=n;i++){          //if we start from i=1 then we get its parent -1 and it may cause of wrong ans, that's why we start from i=2
         ans.push_back({{parent[i] , i} , key[i]});
     }
     
