@@ -1,5 +1,6 @@
 //used to find strongly connected components
 //https://www.codingninjas.com/codestudio/problems/count-strongly-connected-components-kosaraju-s-algorithm_1171151?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar
+//https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
 
 #include<bits/stdc++.h>
 void dfs(int node , unordered_map<int , bool>&vis , unordered_map<int , list<int>>&adj ,stack<int>&s){
