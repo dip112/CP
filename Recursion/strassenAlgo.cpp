@@ -171,3 +171,7 @@ int main() {
     return 0;
 }
 //Time: O(n^2.81)
+
+
+// T(n)= | 1 if n<2
+//       | 7*T(n/2) + n^2 if n>2
